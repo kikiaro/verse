@@ -1,0 +1,189 @@
+<!-- As Example Only. Eventually will Pull from Database and User Input-->
+
+<!-- Logo + Nav -->
+<header class="clearfix">
+    <div class="top-nav">
+        <ul class="nav-left list-unstyled">
+            <li>
+            <div class="menu-button" toggle-off-canvas>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </div>
+            </li>
+        </ul>
+
+<!--Example Notifications -->
+<ul class="nav-left pull-left list-unstyled list-notifications">
+    <li class="dropdown list-notifications__item">
+        <a href="javascript:;" class="dropdown-toggle bg-primary" data-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-inbox color-white"></i>
+        </a>
+        <div class="dropdown-menu pull-left with-arrow panel panel-default">
+            <div class="panel-heading">You Have 2 Messages.</div>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="javascript:;" class="media">
+                                    <span class="pull-left media-icon">
+                                        <span class="circle-icon sm bg-info"><i class="fa fa-comment-o"></i></span>
+                                    </span>
+                        <div class="media-body">
+                            <span class="block">Veronica Sent You a Message</span>
+                            <span class="text-muted">4 hours ago</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="javascript:;" class="media">
+                                    <span class="pull-left media-icon">
+                                        <span class="circle-icon sm bg-danger"><i class="fa fa-comment-o"></i></span>
+                                    </span>
+                        <div class="media-body">
+                            <span class="block">Amanda Sent You a Message</span>
+                            <span class="text-muted">2 hours ago</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="panel-footer">
+                <a href="javascript:;">Show All Messages</a>
+            </div>
+        </div>
+    </li>
+    <li class="dropdown list-notifications__item">
+        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <i class="musicicon-radio43 nav-icon color-white"></i>
+        </a>
+        <div class="dropdown-menu pull-left with-arrow panel panel-default">
+            <div class="panel-heading">
+                You Have 3 Music Suggestions
+            </div>
+
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="javascript:;" class="media">
+                                    <span class="pull-left media-icon">
+                                        <span class="circle-icon sm bg-success"><i class="musicicon-music201"></i></span>
+                                    </span>
+                        <div class="media-body">
+                            <span class="block">Sexy and I Know It</span>
+                            <span class="text-muted block">Jane Doe - 21min ago</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="list-group-item">
+                    <a href="javascript:;" class="media">
+                                    <span class="pull-left media-icon">
+                                        <span class="circle-icon sm bg-info"><i class="musicicon-dj4"></i></span>
+                                    </span>
+                        <div class="media-body">
+                            <span class="block">32 Flavors and Then Some</span>
+                            <span class="text-muted">John Doe - 3 hours ago</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="list-group-item">
+                    <a href="javascript:;" class="media">
+                                    <span class="pull-left media-icon">
+                                        <span class="circle-icon sm bg-danger"><i class="musicicon-cymbals2"></i></span>
+                                    </span>
+
+                        <div class="media-body">
+                            <span class="block">Free Fallin'</span>
+                            <span class="text-muted">John Doe - 9 hours ago</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="panel-footer">
+                <a href="javascript:;">Show All Notifications</a>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<ul data-ng-controller="ActionsCtrl as actions" class="nav-button pull-right list-unstyled header-actions">
+    <li>
+      <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+        <i class="fa fa-bell color-default"></i>
+      </a>
+
+      <div class="dropdown-menu pull-right with-arrow panel panel-default">
+        <div class="panel-heading">You have 2 Notifications</div>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a href="javascript:;" class="media">
+                                    <span class="pull-left media-icon">
+                                        <span class="circle-icon sm bg-info"><i class="fa fa-comment-o"></i></span>
+                                    </span>
+
+              <div class="media-body">
+                <span class="block">Jaime Sent You a Message</span>
+                <span class="text-muted">1 hour ago</span>
+              </div>
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href="javascript:;" class="media">
+                                    <span class="pull-left media-icon">
+                                        <span class="circle-icon sm bg-danger"><i class="fa fa-comment-o"></i></span>
+                                    </span>
+
+              <div class="media-body">
+                <span class="block">Tony Sent You a Message</span>
+                <span class="text-muted">7 hours ago</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="panel-footer">
+          <a href="javascript:;">Show All Messages</a>
+        </div>
+      </div>
+    </li>
+  <li>
+    <a href="javascript:;" data-ng-click="actions.toggleChat()" tooltip-placement="left" tooltip="Toggle chat" tooltip-append-to-body="true">
+      <i class="fa fa-comments-o color-default"></i>
+    </a>
+  </li>
+</ul>
+
+<!--Auth Options-->
+<ul class="nav-button pull-right list-unstyled">
+    <li class="dropdown text-small nav-profile">
+        <a href="javascript:;" class="dropdown-toggle text-muted" data-toggle="dropdown" aria-expanded="false">
+            <img src="dist/images/user.png" alt="" class="img30_30"/>
+        </a>
+        <div class="dropdown-menu pull-right with-arrow panel panel-default">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a href="#/pages/profile" class="media">
+                <span class="block"><i class="fa fa-user color-secondary"></i>My Profile</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a href="#/pages/signin" class="media">
+                <span class="block"><i class="fa fa-lock color-secondary"></i>Lock Screen</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a href="#/pages/signin" class="media">
+                <span class="block"><i class="fa fa-sign-out color-secondary"></i>Sign Out</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a href="#/pages/forgot" class="media">
+                <span class="block"><i class="fa fa-envelope color-secondary"></i>Recover Password</span>
+              </a>
+            </li>
+          </ul>
+          <div class="panel-footer">
+            <a href="javascript:;">Show All Notifications</a>
+          </div>
+        </div>
+    </li>
+</ul>
+</div>
+</header>
