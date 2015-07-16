@@ -1,0 +1,152 @@
+<!-- Leftside Sidebar Navigation -->
+<div class="logo" data-ng-controller="AdminAppCtrl">
+  <a class="logo-link" href="#/"><i class="logo-icon fa fa-step-forward"></i></a>
+
+<!-- Search Feature -->
+  <div class="form-group logo-search">
+    <div>
+      <input type="text" class="form-control" placeholder="Search Verse">
+      <span class="icon glyphicon glyphicon-search"></span>
+    </div>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<div id="nav-wrapper" data-ng-controller="NavCtrl as navigation">
+  <div class="sidebar-nav-switch">
+    <div class="btn-group switch">
+      <a class="btn main-nav-link home" ng-class="{active:navigation.navigationState.menu}" data-nav-section="home" data-ng-click="navigation.SwitchToMenu()">
+        <span class="label">NAVIGATION</span>
+      </a>
+      <a class="btn main-nav-link queue" ng-class="{active:navigation.navigationState.playlist}" data-nav-section="queue" data-ng-click="navigation.SwitchToPlaylist()">
+        <span class="label queue-label">
+            <span>QUEUE</span><span class="songs" ng-show="mediaPlayer.tracks > 0"> <span class="badge badge-primary">{{mediaPlayer.tracks}}</span></span>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div class="sidebar-nav-main navigation-menu-container" data-slim-scroll data-ng-class="{minified:mediaPlayer.currentTrack}">
+    <div class="menu-navigation-menus" ng-show="navigation.navigationState.menu">
+      <div class="nav-user-menu sidebar-nav-content">
+        <ul class="sidebar-nav-menu" data-highlight-active>
+          <li id="user-menu" class="nav-item">
+
+<!-- Profile eventually will be provided by user data -->
+            <a class="nav-link profile" href="#/pages/profile">
+              <img src="dist/images/user.png" alt="" class="img20_20 img-circle">
+              <span class="label helper-tooltip-measured">Kiki Roeder</span>
+              <!-- <span class="label helper-tooltip-measured">{{user.name}}</span> -->
+            </a>
+          </li>
+          <li id="user-menu" class="nav-item">
+            <a class="nav-link profile" href="#/dashboard">
+              <i class="icon fa fa-inbox"></i>
+              <span class="label helper-tooltip-measured">Dashboard</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+<!-- Nav Options -->
+      <div class="nav-user-menu sidebar-nav-content">
+        <ul class="sidebar-nav-menu" data-highlight-active data-collapse-nav>
+
+          <li id="user-menu" class="nav-item">
+            <a class="nav-link profile" href="#/artist-list">
+              <i class="icon fa fa-headphones"></i>
+              <span class="label helper-tooltip-measured">Artists</span>
+            </a>
+          </li>
+
+          <li id="user-menu" class="nav-item">
+            <a class="nav-link profile" href="#/albums">
+              <i class="icon fa fa-bar-chart"></i>
+              <span class="label helper-tooltip-measured">Albums</span>
+            </a>
+          </li>
+
+          <li id="user-menu" class="nav-item">
+            <a class="nav-link profile" href="#/genres">
+              <i class="icon musicicon-radio42"></i>
+              <span class="label helper-tooltip-measured">Genres</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+<!-- User Functions -->
+      <div class="nav-user-menu sidebar-nav-content">
+        <div class="sidebar-nav-content__header">
+        <span class="label">Your Playlists</span>
+        </div>
+
+        <ul class="sidebar-nav-menu" data-highlight-active data-ng-controller="UserPlayListCtrl as userplaylist">
+          <li id="user-menu" class="nav-item">
+            <a class="nav-link profile" href="javascript:;" data-ng-click="generalPlaylist.createNewPlaylist()">
+              <i class="icon fa fa-plus-circle"></i>
+              <span class="label helper-tooltip-measured">Create a Playlist</span>
+            </a>
+          </li>
+          </li>
+          <li id="user-menu" class="nav-item" ng-repeat="playlist in generalPlaylist.userPlaylists track by $index">
+            <a class="nav-link profile" href="#/playlist/{{playlist.url_name}}">
+              <i class="icon fa fa-book"></i>
+              <span class="label helper-tooltip-measured">{{playlist.name}}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+<!--May Need to Recheck Code: Media Player + User Preferences -->
+    <div class="playlist-item-list music-listing--queue" ng-show="navigation.navigationState.playlist">
+      <div class="music-listing__songs">
+
+        <div class="music-listing__row" ng-repeat="song in generalPlaylist.audioPlaylist" ng-class="{ active: mediaPlayer.playing && mediaPlayer.currentTrack-1 === $index }"
+             ui-draggable="true" drag="song" on-drop-success="generalPlaylist.removeSong($index)" ui-on-drop="generalPlaylist.dropSong($data, $index)">
+
+          <div class="music-listing__number">
+            {{ $index+1 }}
+          </div>
+
+          <div class="music-listing__row-actions">
+            <i class="fa fa-times action" ng-click="generalPlaylist.removeSong($index)" title="Remove song"></i>
+            <i class="fa fa-list action" title="Remove"></i>
+          </div>
+
+          <div class="music-listing__name">
+
+            <div class="music-listing__thumbnail" ng-click="mediaPlayer.playPause($index)">
+              <img ng-src="{{song.image}}" alt="song__image"/>
+            </div>
+
+            <div class="music-listing__artist-name" ng-click="mediaPlayer.playPause($index)">
+              {{ song.artist }}
+            </div>
+            <div class="music-listing__song-name" ng-click="mediaPlayer.playPause($index)">
+              {{ song.title }}
+            </div>
+          </div>
+        </div>
+
+        <div class="empty-listing" ng-hide="generalPlaylist.audioPlaylist.length">
+          <div class="empty-listing-message">You Don't Have any Music in the Playlist
+          </div>
+
+          <div class="empty-listing-message">
+            <a ng-href="#/artist-list" class="btn btn-primary btn-block btn-sm">Search</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="player-image-region" ng-show="mediaPlayer.currentTrack" style="background:url({{generalPlaylist.getSongImage(mediaPlayer.currentTrack)}}) no-repeat;">
+    <div class="song-info">
+      <div class="song-info__text">
+        <div class="song-info__title">{{generalPlaylist.getSongArtist(mediaPlayer.currentTrack)}}</div>
+        <div>{{generalPlaylist.getSongName(mediaPlayer.currentTrack)}}</div>
+      </div>
+    </div>
+  </div>
+</div>
