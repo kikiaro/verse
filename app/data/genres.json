@@ -1,0 +1,56 @@
+[
+  {
+    "url_name": "rock",
+    "name": "Rock",
+    "icon": "musicicon-acoustic4",
+    "image" : "dist/images/genres/genre1.jpg"
+  },
+  {
+    "url_name": "rb",
+    "name": "R&B",
+    "icon": "musicicon-cornet3",
+    "image" : "dist/images/genres/genre2.jpg"
+  },
+  {
+    "url_name": "hiphop",
+    "name": "Hip Hop",
+    "icon": "musicicon-dj4",
+    "image" : "dist/images/genres/genre3.jpg"
+  },
+  {
+    "url_name": "jazz",
+    "name": "Jazz",
+    "icon": "musicicon-saxophone8",
+    "image" : "dist/images/genres/genre4.jpg"
+  },
+  {
+    "url_name": "folk",
+    "name": "Folk",
+    "icon": "musicicon-bass4",
+    "image" : "dist/images/genres/genre5.jpg"
+  },
+  {
+    "url_name": "classical",
+    "name": "Classical",
+    "icon": "musicicon-music201",
+    "image" : "dist/images/genres/genre6.jpg"
+  },
+  {
+    "url_name": "rap",
+    "name": "Rap",
+    "icon": "musicicon-loudspeaker8",
+    "image" : "dist/images/genres/genre7.jpg"
+  },
+  {
+    "url_name": "pop",
+    "name": "Pop",
+    "icon": "musicicon-radio43",
+    "image" : "dist/images/genres/genre8.jpg"
+  },
+  {
+    "url_name": "alternative",
+    "name": "Alternative",
+    "icon": "musicicon-cymbals2",
+    "image" : "dist/images/genres/genre9.jpg"
+  }
+]

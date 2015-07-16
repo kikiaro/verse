@@ -1,0 +1,86 @@
+[
+  {
+    "url_name": "radiohead",
+    "name": "Radiohead",
+    "image": "dist/images/artists/artist1.jpg",
+    "genre": ["Rock","Alternative"],
+    "about": "Radiohead are an English rock band from Abingdon, Oxfordshire, formed in 1985. The band consists of Thom Yorke, Jonny Greenwood, Colin Greenwood, Phil Selway and Ed O'Brien."
+  },
+  {
+    "url_name": "beachboys",
+    "name": "Beach Boys",
+    "image": "dist/images/artists/artist2.jpg",
+    "genre": ["Rock","Pop"],
+    "about": "The Beach Boys are an American rock band, formed in Hawthorne, California in 1961. The group's original lineup consisted of brothers Brian, Dennis and Carl Wilson, their cousin Mike Love, and their friend Al Jardine."
+  },
+  {
+    "url_name": "marvingaye",
+    "name": "Marvin Gaye",
+    "image": "dist/images/artists/artist3.jpg",
+    "genre": ["R&B","Soul"],
+    "about": "Marvin Gaye was an American singer, songwriter, and musician. Gaye helped to shape the sound of Motown in the 1960s"
+  },
+  {
+    "url_name": "johnnycash",
+    "name": "Johnny Cash",
+    "image": "dist/images/artists/artist4.jpg",
+    "genre": ["Country","Folk","Rock"],
+    "about": "Cash was an American singer-songwriter, actor, and author, widely considered one of the most influential musicians of the 20th century."
+  },
+  {
+    "url_name": "michaeljackson",
+    "name": "Michael Jackson",
+    "image": "dist/images/artists/artist5.jpg",
+    "genre": ["Pop","R&B"],
+    "about": "Called the King of Pop,Jackson was an American singer, songwriter, record producer, dancer, and actor."
+  },
+  {
+    "url_name": "nirvana",
+    "name": "Nirvana",
+    "image": "dist/images/artists/artist6.jpg",
+    "genre": ["Rock","Altneraitve"],
+    "about": "Nirvana was an American rock band that was formed by singer and guitarist Kurt Cobain and bassist Krist Novoselic in Aberdeen, Washington, in 1987. Drummer Dave Grohl later joined."
+  },
+  {
+    "url_name": "springsteen",
+    "name": "Bruce Springsteen",
+    "image": "dist/images/artists/artist7.jpg",
+    "genre": ["Rock","Pop"],
+    "about": "An American musician, singer, songwriter and humanitarian. He is best known for his work with his E Street Band."
+  },
+  {
+    "url_name": "jayz",
+    "name": "Jay-Z",
+    "image": "dist/images/artists/artist8.jpg",
+    "genre": ["Rap","R&B","Pop"],
+    "about": "Shawn Corey Carter, known by his stage name Jay Z, is an American rapper, record producer, and entrepreneur. He is one of the most financially successful hip hop artists and entrepreneurs in America."
+  },
+  {
+    "url_name": "nin",
+    "name": "Nine Inch Nails",
+    "image": "dist/images/artists/artist9.jpg",
+    "genre": ["Rock","Altnerative"],
+    "about": "Nine Inch Nails is an American industrial rock band, founded in 1988 by Trent Reznor."
+  },
+  {
+    "url_name": "zeppelin",
+    "name": "Led Zeppelin",
+    "image": "dist/images/artists/artist10.jpg",
+    "genre": ["Rock"],
+    "about": "Led Zeppelin were an English rock band formed in London in 1968. The group consisted of guitarist Jimmy Page, singer Robert Plant, bassist and keyboardist John Paul Jones, and drummer John Bonham."
+  },
+  {
+    "url_name": "madonna",
+    "name": "Madonna",
+    "image": "dist/images/artists/artist11.jpg",
+    "genre": ["Pop"],
+    "about": "Madonna achieved popularity by pushing the boundaries of lyrical content in mainstream popular music and imagery in her music videos, which became a fixture on MTV"
+  },
+  {
+    "url_name": "ramones",
+    "name": "Ramones",
+    "image": "dist/images/artists/artist12.jpg",
+    "genre": ["Punk","Rock"],
+    "about": "The Ramones were an American punk rock band that formed in the New York City. They are often cited as the first band to define the punk rock sound."
+  }
+]

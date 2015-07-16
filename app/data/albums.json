@@ -1,0 +1,142 @@
+[
+  {
+    "url_name": "beatles",
+    "artist": "Beatles",
+    "name": "Abbey Road",
+    "image": "dist/images/albums/album1.jpg",
+    "genre": ["Pop","Rock","Folk"]
+  },
+  {
+    "url_name": "clash",
+    "artist": "The Clash",
+    "name": "London Calling",
+    "image": "dist/images/albums/album2.jpg",
+    "genre": ["Rock","Punk","Alternative"]
+  },
+  {
+    "url_name": "marvingaye",
+    "artist": "Marvin Gaye",
+    "name": "Let's Get It On",
+    "image": "dist/images/albums/album3.jpg",
+    "genre": ["R&B","Soul","Pop"]
+  },
+  {
+    "url_name": "davidbowie",
+    "artist": "David Bowie",
+    "name": "Aladdin Sane",
+    "image": "dist/images/albums/album4.jpg",
+    "genre": ["Rock"]
+  },
+  {
+    "url_name": "greenday",
+    "artist": "Green Day",
+    "name": "Dookie",
+    "image": "dist/images/albums/album5.jpg",
+    "genre": ["Rock","Alternative","Pop"]
+  },
+  {
+    "url_name": "michaeljackson",
+    "artist": "Michael Jackson",
+    "name": "Thriller",
+    "image": "dist/images/albums/album6.jpg",
+    "genre": ["Pop"]
+  },
+  {
+    "url_name": "nirvana",
+    "artist": "Nirvana",
+    "name": "Nevermind",
+    "image": "dist/images/albums/album7.jpg",
+    "genre": ["Rock","Alternative"]
+  },
+  {
+    "url_name": "ledzeppelin",
+    "artist": "Led Zeppelin",
+    "name": "I",
+    "image": "dist/images/albums/album8.jpg",
+    "genre": ["Rock"]
+  },
+  {
+    "url_name": "example3",
+    "artist": "Notorious B.I.G.",
+    "name": "Ready to Die",
+    "image": "dist/images/albums/album9.jpg",
+    "genre": ["Rap"]
+  },
+  {
+    "url_name": "example2",
+    "artist": "Pink Floyd",
+    "name": "Darkside of the Moon",
+    "image": "dist/images/albums/album10.jpg",
+    "genre": ["Rock"]
+  },
+  {
+    "url_name": "example",
+    "artist": "Elvis Presely",
+    "name": "Elvis Presely",
+    "image": "dist/images/albums/album11.jpg",
+    "genre": ["Rock","Heavy","Metal"]
+  },
+  {
+    "url_name": "example2",
+    "artist": "AC/DC",
+    "name": "Highway to Hell",
+    "image": "dist/images/albums/album12.jpg",
+    "genre": ["Rock","Pop"]
+  },
+   {
+    "url_name": "example3",
+    "artist": "Radiohead",
+    "name": "OK Computer",
+    "image": "dist/images/albums/album13.jpg",
+    "genre": ["Rock", "Alternative"]
+  },
+   {
+    "url_name": "example",
+    "artist": "Ramones",
+    "name": "Ramones",
+    "image": "dist/images/albums/album14.jpg",
+    "genre": ["Rock","Punk"]
+  },
+   {
+    "url_name": "example2",
+    "artist": "Rolling Stones",
+    "name": "Sticky Fingers",
+    "image": "dist/images/albums/album15.jpg",
+    "genre": ["Rock","Pop"]
+  },
+   {
+    "url_name": "example3",
+    "artist": "Sex Pistols",
+    "name": "Never Mind the Bollocks",
+    "image": "dist/images/albums/album16.jpg",
+    "genre": ["Punk","Rock"]
+  },
+   {
+    "url_name": "example",
+    "artist": "U2",
+    "name": "War",
+    "image": "dist/images/albums/album17.jpg",
+    "genre": ["Rock","Pop"]
+  },
+   {
+    "url_name": "example3",
+    "artist": "Velvet Underground",
+    "name": "Velvet Underground",
+    "image": "dist/images/albums/album18.jpg",
+    "genre": ["Rock"]
+  },
+   {
+    "url_name": "example2",
+    "artist": "St. Vincent",
+    "name": "St. Vincent",
+    "image": "dist/images/albums/album19.jpg",
+    "genre": ["Rock","Pop"]
+  },
+     {
+    "url_name": "example",
+    "artist": "Dr. Dre",
+    "name": "Chronic",
+    "image": "dist/images/albums/album20.jpg",
+    "genre": ["Rock","Pop"]
+  }
+]
