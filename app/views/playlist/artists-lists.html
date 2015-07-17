@@ -1,0 +1,36 @@
+<div class="page page-list" data-ng-controller="ArtistListingCtrl as artistListing">
+  <div class="row"></div>
+
+    <div class="divider-md"></div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="row music-covers-listing">
+            <div data-ng-repeat="artistItem in ArtistsSrv.artists" class="col-md-3">
+              <div class="list-item__wrap">
+
+              <div class="list-item__image">
+                <img ng-src="{{artistItem.image}}"/>
+                <div class="list-item__play">
+                  <a class="list-item__play-button" ng-href="#/artist/{{artistItem.url_name}}">
+                    <i class="fa fa-2x fa-step-forward">
+                    </i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="list-item__name">
+                <h5>{{artistItem.name}}</h5>
+              </div>
+
+              <div class="list-item__style">
+                <div class="artist-genre" ng-repeat="genre in artistItem.genre">
+                  <span class="btn-tag">{{genre}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
