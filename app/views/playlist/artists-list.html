@@ -1,25 +1,24 @@
 <div class="page page-list" data-ng-controller="ArtistListingCtrl as artistListing">
-
-<!-- Play Search-->
   <div class="row">
-     <div class="page-actions">
+    <div class="page-actions">
       <div class="buttons-left">
-        <a class="btn btn-primary" href="#/artist-list">Start Search</a>
+        <button class="btn btn-primary"><i class="fa fa-headphones"></i>&nbsp;&nbsp;Play All</button>
       </div>
-  </div>
+    </div>
 
     <div class="divider-md"></div>
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <div class="row music-covers-listing">
-            <div data-ng-repeat="artistItem in ArtistsSrv.artists" class="col-md-3">
-              <div class="list-item__wrap">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="row music-covers-listing">
+          <div data-ng-repeat="artistItem in ArtistsSrv.artists" class="col-md-3">
+            <div class="list-item__wrap">
 
               <div class="list-item__image">
                 <img ng-src="{{artistItem.image}}"/>
                 <div class="list-item__play">
                   <a class="list-item__play-button" ng-href="#/artist/{{artistItem.url_name}}">
                     <i class="fa fa-2x fa-step-forward">
+
                     </i>
                   </a>
                 </div>

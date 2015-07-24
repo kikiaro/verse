@@ -1,0 +1,22 @@
+.music-covers-listing .list-item__image {
+  max-width: 100%;
+  height: auto; }
+.music-covers-listing .list-item__style .artist-genre {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold; }
+  .music-covers-listing .list-item__style .artist-genre span {
+    line-height: 13px; }
+    .music-covers-listing .list-item__style .artist-genre span:before {
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transform: translate(0, 0);
+      content: "\f111";
+      font-size: 8px;
+      margin-right: 5px; }
+
+/*# sourceMappingURL=covers-listing.css.map */

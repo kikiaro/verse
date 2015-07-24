@@ -1,0 +1,5 @@
+
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$color--primary\".\A         on line 40 of top_header.scss\A \A 35:   position: absolute;\A 36:   width: 270px;\A 37:   height: 80px;\A 38:   padding-left: 20px;\A 39:   color: #ffffff;\A 40:   background:$color--primary;\A 41:   line-height: 80px;\A 42:   text-align: left;\A 43:   z-index:2;\A 44:   display:none;\A 45: "; }

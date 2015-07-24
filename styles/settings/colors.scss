@@ -1,0 +1,20 @@
+
+$color--primary: #FF5721;
+$color--secondary: #2A2A2A;
+$color--secondary-light:lighten($color--secondary,5%);
+$color--third: #00C7FA;
+$color--text: #757575;
+
+$color--gray: #bcbcbc;
+$color--gray-light: #dedede;
+$color--gray-very-light: #E8E8E8;
+$color--gray-dark: #333;
+$color--breadcrumbs: #EAEAEA;
+$color--background: $color--gray-very-light;
+$color--brown: #503f3C;
+
+$color--success: $color--primary;
+$color--info: #619BF2;
+$color--warning: #F2B53F;
+$color--danger: #AA3D2A;
+$color--info-alt: #ED36CD;

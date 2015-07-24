@@ -3,7 +3,7 @@
 angular.module("app.controllers", []).controller("AdminAppCtrl", ["$scope", "$location",
   function ($scope, $location) {
     $scope.checkIfOwnPage = function () {
-      return _.contains(["/front","/404", "/pages/500", "/pages/login", "/pages/signin", "/pages/signin1", "/pages/signin2", "/pages/signup", "/pages/signup1", "/pages/signup2", "/pages/forgot", "/pages/lock-screen"], $location.path());
+      return _.contains(["/front","/404", "/pages/login", "/pages/signin", "/pages/signin1", "/pages/signin2", "/pages/signup", "/pages/signup1", "/pages/signup2", "/pages/forgot", "/pages/lock-screen"], $location.path());
     };
 
     $scope.checkIfFixedPage = function () {
@@ -137,7 +137,7 @@ angular.module("app.form.validation", []).controller("wizardFormCtrl", ["$scope"
 ]);
 
 
-/* Interaction Code. Temporary; copy from Joe Garren */
+/* Interaction Code. Temporary copy */
 
 angular.module("app.ui.form.ctrls", []).controller("TagsDemoCtrl", ["$scope",
   function ($scope) {
@@ -207,7 +207,7 @@ angular.module("app.ui.form.ctrls", []).controller("TagsDemoCtrl", ["$scope",
 ]);
 
 
-/* Tables; code from Joe Garren */
+/* Tables; copy */
 
 angular.module("app.tables", []).controller("tableCtrl", ["$scope", "$filter",
   function ($scope, $filter) {

@@ -1,0 +1,344 @@
+<section class="profile-banner">
+  <div class="panel-profile">
+    <div class="panel-heading text-center bg-info">
+      <div class="overlay_prof"></div>
+      <div class="profile_info">
+        <div class="profile-image">
+          <a class="user-profile__icon" tooltip-placement="bottom" tooltip="My Music" tooltip-append-to-body="true">
+            <i class="fa fa-music">
+            </i>
+          </a>
+          <img src="dist/images/user.png" alt="" class="img100_100 img-circle"/>
+          <a href="/../#/mail/compose" class="user-profile__icon" tooltip-placement="bottom" tooltip="Message Me" tooltip-append-to-body="true">
+            <i class="fa fa-inbox">
+            </i>
+          </a>
+        </div>
+
+<!--Profile -->
+        <h3>Kiki Roeder</h3>
+        <h5>Superwoman goofball fueled by coffee and adventure in chase of good music to fuel my energy to develop awesome web apps and software. Learning, connecting, traveling and coding are my life.</h5>
+      </div>
+    </div>
+
+    <div class="profile-sub-header">
+      <div class="profile-stats-block">
+        <div class="stats-label"><span>Birthday</span></div>
+        <div class="stats-value">April 6 1985</div>
+      </div>
+      <div class="profile-stats-block">
+        <div class="stats-label"><span>Gender</span></div>
+        <div class="stats-value"><i class="fa fa-female color-primary"></i>&nbsp;Female</div>
+      </div>
+      <div class="profile-stats-block">
+        <div class="stats-label"><span>Location</span></div>
+        <div class="stats-value"><i class="fa fa-bicycle color-primary"></i>&nbsp; Atlanta</div>
+      </div>
+
+      <div class="profile-stats-block">
+      </div>
+
+      <div class="profile-stats-block pull-right">
+        <a class="btn btn-primary">
+          Start Search
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Favorite Artists -->
+<div class="page page-profile">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4><i class="fa fa-list color-primary"></i>&nbsp;&nbsp; Favorite Artists</h4>
+
+          <div data-ng-controller="ArtistListingCtrl as artistListing">
+            <div class="row music-covers-listing minified">
+              <div data-ng-repeat="artistItem in ArtistsSrv.artists" class="col-md-4">
+                <div class="list-item__wrap">
+                  <div class="list-item__image">
+                    <img ng-src="{{artistItem.image}}"/>
+                    <div class="list-item__play">
+                      <a class="list-item__play-button" ng-href="#/artist/{{artistItem.url_name}}">
+                        <i class="fa fa-2x fa-step-forward"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="list-item__name">
+                    <h6>{{artistItem.name}}</h6>
+                  </div>
+
+                  <div class="list-item__style">
+                    <div class="artist-genre" ng-repeat="genre in artistItem.genre">
+                      <span>{{genre}}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Friends -->
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="panel-body">
+            <h4><i class="fa fa-heart color-primary"></i>&nbsp;&nbsp; Friends are Listening to</h4>
+
+            <div class="now-playing">
+              <div class="row">
+                <div class="col-md-3 now-playing__column">
+                  <div class="now-playing__item">
+                    <div class="now-playing__image">
+                      <img src="dist/images/team2.jpg" alt="" class="img64_64 img-circle">
+                      <div class="now-playing__music-icon">
+                        <i class="fa fa-check">
+                        </i>
+                      </div>
+                    </div>
+<!--Profiles as Same in Dashboard-->
+                    <div class="now-playing__name">
+                      <h6>Colin Taylor</h6>
+                    </div>
+                    <div class="now-playing__song">
+                      Can't Get No Satisifaction
+                    </div>
+                    <div class="now-playint__rating">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 now-playing__column">
+                  <div class="now-playing__item">
+                    <div class="now-playing__image">
+                      <img src="dist/images/friend3.jpg" alt="" class="img64_64 img-circle">
+                      <div class="now-playing__music-icon">
+                        <i class="fa fa-check"> </i>
+                      </div>
+                    </div>
+
+                    <div class="now-playing__name">
+                      <h6>Mendel Yaffe</h6>
+                    </div>
+                    <div class="now-playing__song">
+                      Set This House on Fire
+                    </div>
+                    <div class="now-playint__rating">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 now-playing__column">
+                  <div class="now-playing__item">
+                    <div class="now-playing__image">
+                      <img src="dist/images/friend4.jpg" alt="" class="img64_64 img-circle">
+                      <div class="now-playing__music-icon">
+                        <i class="fa fa-check"></i>
+                      </div>
+                    </div>
+
+                    <div class="now-playing__name">
+                      <h6>Avant Baker</h6>
+                    </div>
+                    <div class="now-playing__song">
+                      You Got This
+                    </div>
+                    <div class="now-playint__rating">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 now-playing__column">
+                  <div class="now-playing__item">
+                    <div class="now-playing__image">
+                      <img src="dist/images/friend5.jpg" alt="" class="img64_64 img-circle">
+                      <div class="now-playing__music-icon">
+                        <i class="fa fa-check">
+                        </i>
+                      </div>
+                    </div>
+
+                    <div class="now-playing__name">
+                      <h6>Marc Wright</h6>
+                    </div>
+                    <div class="now-playing__song">
+                      Together We Are Legends
+                    </div>
+                    <div class="now-playint__rating">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Right Column for Following -->
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4><i class="fa fa-history color-primary"></i>&nbsp;&nbsp; Following this Profile</h4>
+          <div>
+
+<!--Examples. Eventually filled by DB -->
+            <ul class="list-inline">
+              <li>
+                <img src="dist/images/user.png" alt="" class="img30_30 img-circle" tooltip-placement="bottom" tooltip="John Doeser" tooltip-append-to-body="true">
+              </li>
+              <li>
+                <img src="dist/images/team1.jpg" alt="" class="img30_30 img-circle" tooltip-placement="bottom" tooltip="John Doeser" tooltip-append-to-body="true">
+              </li>
+              <li>
+                <img src="dist/images/team2.jpg" alt="" class="img30_30 img-circle" tooltip-placement="bottom" tooltip="John Doeser" tooltip-append-to-body="true">
+              </li>
+              <li>
+                <img src="dist/images/team3.jpg" alt="" class="img30_30 img-circle" tooltip-placement="bottom" tooltip="John Doeser" tooltip-append-to-body="true">
+              </li>
+              <li>
+                <img src="dist/images/friend2.jpg" alt="" class="img30_30 img-circle" tooltip-placement="bottom" tooltip="John Doeser" tooltip-append-to-body="true">
+              </li>
+              <li>
+                <img src="dist/images/team5.jpg" alt="" class="img30_30 img-circle" tooltip-placement="bottom" tooltip="John Doeser" tooltip-append-to-body="true">
+              </li>
+              <li>
+                <img src="dist/images/team6.jpg" alt="" class="img30_30 img-circle" tooltip-placement="bottom" tooltip="John Doeser" tooltip-append-to-body="true">
+              </li>
+              <li>
+                <img src="dist/images/team3.jpg" alt="" class="img30_30 img-circle" tooltip-placement="bottom" tooltip="John Doeser" tooltip-append-to-body="true">
+              </li>
+              <li>
+                <img src="dist/images/friend2.jpg" alt="" class="img30_30 img-circle" tooltip-placement="bottom" tooltip="John Doeser" tooltip-append-to-body="true">
+              </li>
+              <li>
+                <img src="dist/images/team5.jpg" alt="" class="img30_30 img-circle" tooltip-placement="bottom" tooltip="John Doeser" tooltip-append-to-body="true">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+<!--Social Bar -->
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4><i class="fa fa-share-alt color-primary"></i>&nbsp;&nbsp; Share Profile
+          </h4>
+          <div>
+            <a href="https://twitter.com/" class="btn-icon btn-icon-sm btn-twitter"><i class="fa fa-twitter"></i></a>
+      <a href="https://facebook.com/" class="btn-icon btn-icon-sm btn-facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://plus.google.com" class="btn-icon btn-icon-sm btn-google-plus"><i class="fa fa-google-plus"></i></a>
+      <a href="https://pinterest.com" class="btn-icon btn-icon-sm btn-pinterest"><i class="fa fa-pinterest"></i></a>
+      <a href="https://instagram.com" class="btn-icon btn-icon-sm btn-instagram"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4><i class="fa fa-bullhorn color-primary"></i>&nbsp;&nbsp; Latest Conversations</h4>
+          <div>
+            <div class="chat-window">
+            <div class="friends-list">
+              <div class="friend-item online">
+                <div class="friend-image">
+                  <img src="dist/images/team3.jpg" alt="" class="img30_30 img-circle">
+                </div>
+                <div class="friend-name">
+                  <h5>Kevin Hobbs</h5>
+                  <h6>Rocky Top</h6>
+                </div>
+              </div>
+
+              <div class="friend-item online">
+                <div class="friend-image">
+                  <img src="dist/images/friend2.jpg" alt="" class="img30_30 img-circle">
+                </div>
+                <div class="friend-name">
+                  <h5>Chris Kemeza</h5>
+                  <h6>Detroit</h6>
+                </div>
+              </div>
+
+              <div class="friend-item online">
+                <div class="friend-image">
+                  <img src="dist/images/team5.jpg" alt="" class="img30_30 img-circle">
+                </div>
+                <div class="friend-name">
+                  <h5>Matt Valdez</h5>
+                  <h6>Salt Lake City</h6>
+                </div>
+              </div>
+
+              <div class="friend-item online">
+                <div class="friend-image">
+                  <img src="dist/images/team6.jpg" alt="" class="img30_30 img-circle">
+                </div>
+                <div class="friend-name">
+                  <h5>Avant Baker</h5>
+                  <h6>Chicago</h6>
+                </div>
+              </div>
+
+              <div class="friend-item online">
+                <div class="friend-image">
+                  <img src="dist/images/team2.jpg" alt="" class="img30_30 img-circle">
+                </div>
+                <div class="friend-name">
+                  <h5>Michael Hopper</h5>
+                  <h6>Atlanta</h6>
+                </div>
+              </div>
+
+              <div class="friend-item offline">
+                <div class="friend-image">
+                  <img src="dist/images/team3.jpg" alt="" class="img30_30 img-circle">
+                </div>
+                <div class="friend-name">
+                  <h5>Colin Taylor</h5>
+                  <h6>Boulder</h6>
+                </div>
+              </div>
+
+              <div class="friend-item offline">
+                <div class="friend-image">
+                  <img src="dist/images/friend2.jpg" alt="" class="img30_30 img-circle">
+                </div>
+                <div class="friend-name">
+                  <h5>Mendell Yaffe</h5>
+                  <h6>Mars</h6>
+                </div>
+              </div>
+
+              <div class="friend-item offline">
+                <div class="friend-image">
+                  <img src="dist/images/team5.jpg" alt="" class="img30_30 img-circle">
+                </div>
+                <div class="friend-name">
+                  <h5>Peter Ward</h5>
+                  <h6>Atlanta</h6>
+                </div>
+              </div>
+
+              <div class="friend-item offline">
+                <div class="friend-image">
+                  <img src="dist/images/team3.jpg" alt="" class="img30_30 img-circle">
+                </div>
+                <div class="friend-name">
+                  <h5>Raheem Nasser</h5>
+                  <h6>New York</h6>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

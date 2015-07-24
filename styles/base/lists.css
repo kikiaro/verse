@@ -1,0 +1,8 @@
+ul.list-inline {
+  display: inline; }
+  ul.list-inline li {
+    display: inline;
+    list-style: none;
+    margin-right: 5px; }
+
+/*# sourceMappingURL=lists.css.map */

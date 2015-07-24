@@ -144,21 +144,18 @@ angular.module("app.ui.services", []).factory("loggit", [
 /* Same values for demonstrating playlist feature */
     playlists.list[0] = {
       url_name: 'example',
-      name: 'Web Dev Jams',
+      name: 'DevJams',
       banner: 'dist/images/playlists/playlistbanner.jpg',
-      image: 'dist/images/songs/song10.jpg',
+      image: 'dist/images/songs/song7.jpg',
       genre: [],
       songs: [
-        {image: 'dist/images/songs/song1.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Beatles - Come Together', type: "audio/mpeg" },
-        {image: 'dist/images/songs/song2.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Beatles - Drive my car', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song3.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Beatles - Loser', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song4.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Beatles - All my loving', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song5.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Beatles - Taxman', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song6.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Beatles - Come Together', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song7.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Beatles - Drive my car', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song8.jpg', url: '../#/music/be-still.m4a', displayName: 'Beach Boys - Be Still', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song8.jpg', url: '../#/music/god-only-knows.m4a', displayName: 'Beach Boys - God Only Knows', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song8.jpg', url: '../#/music/cigs-coffee.m4a', displayName: 'Otis Redding - Cigarettes and Coffee', type: "audio/mpeg"  },
+        {image: 'dist/images/songs/song5.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Artist Name - Title', type: "audio/mpeg" },
+        {image: 'dist/images/songs/song6.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Artist Name - Title', type: "audio/mpeg"  },
+        {image: 'dist/images/songs/song7.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Artist Name - Title', type: "audio/mpeg"  },
+        {image: 'dist/images/songs/song6.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Artist Name - Title', type: "audio/mpeg"  },
+        {image: 'dist/images/songs/song5.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Artist Name - Title', type: "audio/mpeg"  },
+        {image: 'dist/images/songs/song6.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Artist Name - Title', type: "audio/mpeg"  },
+        {image: 'dist/images/songs/song7.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Artist Name - Title', type: "audio/mpeg"  }
       ]
     };
 
