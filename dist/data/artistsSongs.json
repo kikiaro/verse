@@ -1,65 +1,65 @@
 [
   {
-    "url_name": "example2",
-    "name": "Example",
+    "url_name": "example",
+    "name": "Sample Name",
     "banner": "dist/images/artists/artistbanner1.jpg",
     "image": "dist/images/artists/artist1.jpg",
     "genre": ["Pop","Rock","Folk"],
-    "songs": [
-      {"image": "dist/images/songs/song1.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/d/d0/Beatles_cometogether.ogg", "displayName": "Example - Come Together" },
-      {"image": "dist/images/songs/song2.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/8c/Beatles_drive_my_car.ogg", "displayName": "Example - Drive my car" },
-      {"image": "dist/images/songs/song3.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/1/1b/Beatles_loser.ogg", "displayName": "Example - Loser" },
-      {"image": "dist/images/songs/song4.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/5/5a/Beatles_all_my_loving.ogg", "displayName": "Example - All my loving" },
-      {"image": "dist/images/songs/song5.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/82/Beatles_taxman.ogg", "displayName": "Example - Taxman" },
-      {"image": "dist/images/songs/song6.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/d/d0/Beatles_cometogether.ogg", "displayName": "Example - Tonight we do" },
-      {"image": "dist/images/songs/song7.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/8c/Beatles_drive_my_car.ogg", "displayName": "Example - Revolver" },
-      {"image": "dist/images/songs/song8.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/1/1b/Beatles_loser.ogg", "displayName": "Example - Here comes the sun" },
-      {"image": "dist/images/songs/song9.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/5/5a/Beatles_all_my_loving.ogg", "displayName": "Example - We should not" },
-      {"image": "dist/images/songs/song10.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/82/Beatles_taxman.ogg", "displayName": "Example - Better man" },
-      {"image": "dist/images/songs/song11.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/d/d0/Beatles_cometogether.ogg", "displayName": "Example - Help from my friend" },
-      {"image": "dist/images/songs/song12.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/8c/Beatles_drive_my_car.ogg", "displayName": "Example - Since tonight" }
+    "books": [
+      {"image": "dist/images/books/book1.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/d/d0/Beatles_cometogether.ogg", "displayingName": "Sample Name - Come Together" },
+      {"image": "dist/images/books/book2.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/8c/Beatles_drive_my_car.ogg", "displayingName": "Sample Name - Drive my car" },
+      {"image": "dist/images/books/book3.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/1/1b/Beatles_loser.ogg", "displayingName": "Sample Name - Loser" },
+      {"image": "dist/images/books/book4.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/5/5a/Beatles_all_my_loving.ogg", "displayingName": "Sample Name - All my loving" },
+      {"image": "dist/images/books/book5.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/82/Beatles_taxman.ogg", "displayingName": "Sample Name - Taxman" },
+      {"image": "dist/images/books/book6.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/d/d0/Beatles_cometogether.ogg", "displayingName": "Sample Name - Tonight we do" },
+      {"image": "dist/images/books/book7.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/8c/Beatles_drive_my_car.ogg", "displayingName": "Sample Name - Revolver" },
+      {"image": "dist/images/books/book8.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/1/1b/Beatles_loser.ogg", "displayingName": "Sample Name - Here comes the sun" },
+      {"image": "dist/images/books/book9.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/5/5a/Beatles_all_my_loving.ogg", "displayingName": "Sample Name - We should not" },
+      {"image": "dist/images/books/book10.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/82/Beatles_taxman.ogg", "displayingName": "Sample Name - Better man" },
+      {"image": "dist/images/books/book11.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/d/d0/Beatles_cometogether.ogg", "displayingName": "Sample Name - Help from my friend" },
+      {"image": "dist/images/books/book12.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/8c/Beatles_drive_my_car.ogg", "displayingName": "Sample Name - Since tonight" }
+    ]
+  },
+  {
+    "url_name": "example2",
+    "name": "Sample Name",
+    "banner": "dist/images/artists/artistbanner2.jpg",
+    "image": "dist/images/artists/artist2.jpg",
+    "genre": ["R&B"],
+    "books": [
+      {"image": "dist/images/books/book20.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/6/65/Enyalaetha.ogg", "displayingName": "Sample Name - Laetha" },
+      {"image": "dist/images/books/book19.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/c/ca/Enyaonlyif.ogg", "displayingName": "Sample Name - Only if" },
+      {"image": "dist/images/books/book18.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/b/ba/Enya-Trains_and_Winter_Rains.ogg", "displayingName": "Sample Name - Trains over fall" },
+      {"image": "dist/images/books/book17.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/6/65/Enyalaetha.ogg", "displayingName": "Sample Name - Nothing else" },
+      {"image": "dist/images/books/book16.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/c/ca/Enyaonlyif.ogg", "displayingName": "Sample Name - Tonight we are" },
+      {"image": "dist/images/books/book15.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/b/ba/Enya-Trains_and_Winter_Rains.ogg", "displayingName": "Sample Name - In the night" },
+      {"image": "dist/images/books/book14.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/6/65/Enyalaetha.ogg", "displayingName": "Sample Name - Nothing else" },
+      {"image": "dist/images/books/book13.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/c/ca/Enyaonlyif.ogg", "displayingName": "Sample Name - The truth" },
+      {"image": "dist/images/books/book12.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/b/ba/Enya-Trains_and_Winter_Rains.ogg", "displayingName": "Sample Name - Whatever may be" },
+      {"image": "dist/images/books/book11.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/6/65/Enyalaetha.ogg", "displayingName": "Sample Name - Stop falling" },
+      {"image": "dist/images/books/book10.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/c/ca/Enyaonlyif.ogg", "displayingName": "Sample Name - Come now to" },
+      {"image": "dist/images/books/book9.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/b/ba/Enya-Trains_and_Winter_Rains.ogg", "displayingName": "Sample Name - Nothing rules" },
+      {"image": "dist/images/books/book8.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/6/65/Enyalaetha.ogg", "displayingName": "Sample Name - Yes we are" }
     ]
   },
   {
     "url_name": "example3",
-    "name": "Example 3",
-    "banner": "dist/images/artists/artistbanner2.jpg",
-    "image": "dist/images/artists/artist2.jpg",
-    "genre": ["New age","Celtic","World"],
-    "songs": [
-      {"image": "dist/images/songs/song20.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/6/65/Enyalaetha.ogg", "displayName": "Example 3 - Laetha" },
-      {"image": "dist/images/songs/song19.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/c/ca/Enyaonlyif.ogg", "displayName": "Example 3 - Only if" },
-      {"image": "dist/images/songs/song18.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/b/ba/Enya-Trains_and_Winter_Rains.ogg", "displayName": "Example 3 - Trains over fall" },
-      {"image": "dist/images/songs/song17.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/6/65/Enyalaetha.ogg", "displayName": "Example 3 - Nothing else" },
-      {"image": "dist/images/songs/song16.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/c/ca/Enyaonlyif.ogg", "displayName": "Example 3 - Tonight we are" },
-      {"image": "dist/images/songs/song15.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/b/ba/Enya-Trains_and_Winter_Rains.ogg", "displayName": "Example 3 - In the night" },
-      {"image": "dist/images/songs/song14.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/6/65/Enyalaetha.ogg", "displayName": "Example 3 - Nothing else" },
-      {"image": "dist/images/songs/song13.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/c/ca/Enyaonlyif.ogg", "displayName": "Example 3 - The truth" },
-      {"image": "dist/images/songs/song12.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/b/ba/Enya-Trains_and_Winter_Rains.ogg", "displayName": "Example 3 - Whatever may be" },
-      {"image": "dist/images/songs/song11.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/6/65/Enyalaetha.ogg", "displayName": "Example 3 - Stop falling" },
-      {"image": "dist/images/songs/song10.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/c/ca/Enyaonlyif.ogg", "displayName": "Example 3 - Come now to" },
-      {"image": "dist/images/songs/song9.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/b/ba/Enya-Trains_and_Winter_Rains.ogg", "displayName": "Example 3 - Nothing rules" },
-      {"image": "dist/images/songs/song8.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/6/65/Enyalaetha.ogg", "displayName": "Example 3 - Yes we are" }
-    ]
-  },
-  {
-    "url_name": "example",
-    "name": "Example",
+    "name": "King of the mood",
     "banner": "dist/images/artists/artistbanner3.jpg",
     "image": "dist/images/artists/artist3.jpg",
     "genre": ["Pop","Rock","Folk"],
-    "songs": [
-      {"image": "dist/images/songs/song10.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/82/Beatles_taxman.ogg", "displayName": "Example - Better man" },
-      {"image": "dist/images/songs/song11.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/d/d0/Beatles_cometogether.ogg", "displayName": "Example - Help from my friend" },
-      {"image": "dist/images/songs/song12.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/8c/Beatles_drive_my_car.ogg", "displayName": "Example - Since tonight" },
-      {"image": "dist/images/songs/song13.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/1/1b/Beatles_loser.ogg", "displayName": "Example - Shotgun" },
-      {"image": "dist/images/songs/song14.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/5/5a/Beatles_all_my_loving.ogg", "displayName": "Example - Solitude" },
-      {"image": "dist/images/songs/song15.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/82/Beatles_taxman.ogg", "displayName": "Example - Woman are we" },
-      {"image": "dist/images/songs/song16.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/d/d0/Beatles_cometogether.ogg", "displayName": "Example - Silence of the lamb" },
-      {"image": "dist/images/songs/song17.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/8c/Beatles_drive_my_car.ogg", "displayName": "Example - Sun sun sun" },
-      {"image": "dist/images/songs/song18.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/1/1b/Beatles_loser.ogg", "displayName": "Example - Truth be told" },
-      {"image": "dist/images/songs/song19.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/5/5a/Beatles_all_my_loving.ogg", "displayName": "Example - Horrifying" },
-      {"image": "dist/images/songs/song20.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/82/Beatles_taxman.ogg", "displayName": "Example - Shatered in pieces" }
+    "books": [
+      {"image": "dist/images/books/book10.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/82/Beatles_taxman.ogg", "displayingName": "King of the mood - Better man" },
+      {"image": "dist/images/books/book11.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/d/d0/Beatles_cometogether.ogg", "displayingName": "King of the mood - Help from my friend" },
+      {"image": "dist/images/books/book12.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/8c/Beatles_drive_my_car.ogg", "displayingName": "King of the mood - Since tonight" },
+      {"image": "dist/images/books/book13.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/1/1b/Beatles_loser.ogg", "displayingName": "King of the mood - Shotgun" },
+      {"image": "dist/images/books/book14.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/5/5a/Beatles_all_my_loving.ogg", "displayingName": "King of the mood - Solitude" },
+      {"image": "dist/images/books/book15.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/82/Beatles_taxman.ogg", "displayingName": "King of the mood - Woman are we" },
+      {"image": "dist/images/books/book16.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/d/d0/Beatles_cometogether.ogg", "displayingName": "King of the mood - Silence of the lamb" },
+      {"image": "dist/images/books/book17.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/8c/Beatles_drive_my_car.ogg", "displayingName": "King of the mood - Sun sun sun" },
+      {"image": "dist/images/books/book18.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/1/1b/Beatles_loser.ogg", "displayingName": "King of the mood - Truth be told" },
+      {"image": "dist/images/books/book19.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/5/5a/Beatles_all_my_loving.ogg", "displayingName": "King of the mood - Horrifying" },
+      {"image": "dist/images/books/book20.jpg", "url": "http://upload.wikimedia.org/wikipedia/en/8/82/Beatles_taxman.ogg", "displayingName": "King of the mood - Shatered in pieces" }
     ]
   }
 ]
