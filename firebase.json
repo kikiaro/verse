@@ -1,9 +1,0 @@
-{
-  "firebase": "verseapp",
-  "public": ".",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
-}

@@ -5,15 +5,13 @@
 
 ## Technologies used in development
   * [Angular.js](https://angularjs.org/)
-  * [MongoDB](https://www.mongodb.org/)
-  * [Mongoose.js](http://mongoosejs.com/)
-  * [Express.js](http://expressjs.com/)
+  * [Firebase.js](https://www.firebase.com/)
   * [Node.js](https://nodejs.org/)
 
 ---
 
-### The app lives on heroku
-#### check it out [here]()
+### The app lives on Firebase
+#### check VERSE out [here](https://verse.firebaseapp.com/)
 
 ### Trello was used to manage workflow
 #### check it out [here](https://trello.com/b/HqixJpTg/verse)
